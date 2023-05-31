@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "460627880971",
+    "project_id": "alahamar-19fae",
+    "storage_bucket": "alahamar-19fae.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:460627880971:android:b11bf7b60e907f6179ab0e",
+        "android_client_info": {
+          "package_name": "com.example.alahamar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "460627880971-7nohi3s2kfg5vonu3pueq4e1vb19tbrl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3jVAUAVzpBXaiqOKOCgQBsqf_r7sLDmk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "460627880971-7nohi3s2kfg5vonu3pueq4e1vb19tbrl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

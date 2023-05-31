@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="vertical">
+<TextView
+    android:layout_width="match_parent"
+    android:text="Open With"
+    android:textColor="@color/black"
+    android:textStyle="bold"
+    android:gravity="center"
+    android:textSize="20dp"
+    android:layout_height="40dp">
+
+</TextView>
+
+
+<TextView
+    android:id="@+id/galaryy_layout"
+
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginTop="0dp"
+    android:layout_marginRight="20dp"
+    android:gravity="center"
+    android:text="Galary"
+    android:textColor="@color/black"
+    android:textSize="18dp">
+
+</TextView>
+
+
+    <TextView
+        android:id="@+id/photos_layout"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center"
+        android:text="photos"
+        android:textColor="@color/black"
+        android:textSize="18dp">
+
+    </TextView>
+
+</LinearLayout>

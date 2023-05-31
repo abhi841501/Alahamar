@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="20dp"
+    android:orientation="vertical"
+    tools:ignore="ExtraText">
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <in.aabhasjindal.otptextview.OtpTextView
+        android:id="@+id/otp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        app:bar_active_color="@color/teal_700"
+        app:bar_enabled="true"
+        app:bar_error_color="@color/red"
+        app:bar_height="1.5dp"
+        app:bar_inactive_color="@color/black"
+        app:bar_margin_bottom="0dp"
+        app:bar_margin_left="0dp"
+        app:bar_margin_right="5dp"
+        app:bar_margin_top="50dp"
+        app:bar_success_color="@color/teal_700"
+        app:box_margin="0dp"
+        app:height="40dp"
+        app:hide_otp="false"
+        app:length="6"
+        app:otp=""
+        app:otp_text_size="20dp"
+        app:width="40dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/submit_otp_button"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:background="@color/Yellow"
+        android:layout_marginBottom="20dp"
+        android:text="submit otp">
+
+    </androidx.appcompat.widget.AppCompatButton>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
+
+

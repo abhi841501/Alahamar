@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/whiteDark">
+
+
+    <ImageView
+
+        android:layout_width="140dp"
+        android:layout_height="160dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/circal" />
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="210dp"
+        app:cardCornerRadius="15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/background_color1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Want us to contact you"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:layout_marginTop="20dp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/new_background_color"
+                android:layout_marginRight="20dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:id="@+id/relativeName"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp">
+
+
+                    <EditText
+                        android:id="@+id/name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5dp"
+                        android:background="@null"
+                        android:foregroundGravity="center"
+                        android:gravity="center_vertical"
+                        android:hint="Name"
+                        android:inputType="textShortMessage"
+                        android:textSize="14dp" />
+
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/new_background_color"
+                android:layout_marginRight="20dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:id="@+id/relativeEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp">
+
+                    <EditText
+                        android:id="@+id/email"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5dp"
+                        android:background="@null"
+                        android:gravity="center_vertical"
+                        android:hint="Email"
+                        android:inputType="textEmailAddress"
+                        android:textSize="14dp" />
+
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/new_background_color"
+                android:layout_marginRight="20dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:id="@+id/relativePhoneNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp">
+
+                    <EditText
+                        android:id="@+id/PhoneNumber"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5dp"
+                        android:background="@null"
+                        android:gravity="center_vertical"
+                        android:hint="Phone Number"
+                        android:inputType="phone"
+                        android:textSize="14dp" />
+
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/new_background_color"
+                android:layout_marginRight="20dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:gravity="center">
+                    <EditText
+                        android:id="@+id/Suggestion"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:background="@null"
+                        android:layout_centerInParent="true"
+                        android:layout_alignParentLeft="true"
+                        android:hint="Message"
+                        android:inputType="textCapWords"
+                        android:textSize="14dp" />
+
+                    <FrameLayout
+                        android:id="@+id/frameLayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+
+
+                </RelativeLayout>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="20dp">
+
+                <TextView
+                    android:id="@+id/submitButton"
+                    android:layout_width="150dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/button_background"
+                    android:enabled="true"
+                    android:gravity="center"
+                    android:text="Submit"
+                    android:textColor="@drawable/btntextbackgroundcolor"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+
+
+        </LinearLayout>
+
+            </ScrollView>
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>
+
